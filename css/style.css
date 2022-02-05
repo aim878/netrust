@@ -44,7 +44,6 @@
 }
 body{
     background-color: #eeebeb;
-    padding: 20px;
 }
 #main .main-dashboards{
     background-color: #0e5499;
@@ -462,6 +461,8 @@ main .heading-document.list h3 {
 
 .main-logo{
     padding: 58px 112px;
+    background-color: #ffffff;
+    height: 100%;
 }
 h1.login{
     padding-top: 58px;
@@ -590,13 +591,11 @@ label.form-check-label{
     justify-content: space-between;
     margin-bottom: 30px;
 }
-a.login{
+button.login{
     font-size: 16px;
     font-family: 'Poppins';
     font-weight: normal;
     color: #fff; 
-}
-.main-login{
     border: 1px solid #52b856;
     background-color: #52b856;
     height: 48px;
@@ -605,7 +604,8 @@ a.login{
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    width: 100%;
 }
 .main-img-text {
     height: 100%;
